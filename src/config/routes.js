@@ -9,12 +9,13 @@ const routes = {
         subcriptions: '/feed/subcriptions',
         trending: '/feed/trending',
     },
-    
+
     gaming: '/gaming',
     playlist: '/playlist',
     shorts: '/shorts',
     search: '/results',
     reportHistory: '/ReportHistory',
     profile: '/:nickname',
+    policy: '/policy',
 };
 export default routes;
