@@ -14,6 +14,7 @@ import Policy from '~/pages/Policy';
 import Profile from '~/pages/Profile';
 import ReportHistory from '~/pages/ReportHistory';
 import Shorts from '~/pages/Shorts';
+import Watch from '~/pages/Watch';
 const publicRoutes = [
     {
         path: config.routes.home,
@@ -81,6 +82,11 @@ const publicRoutes = [
     {
         path: config.routes.policy,
         component: Policy,
+        layout: HeaderOnly,
+    },
+    {
+        path: config.routes.policy,
+        component: Watch,
         layout: HeaderOnly,
     },
 ];

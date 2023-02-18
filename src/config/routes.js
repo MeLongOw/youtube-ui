@@ -15,7 +15,8 @@ const routes = {
     shorts: '/shorts',
     search: '/results',
     reportHistory: '/ReportHistory',
-    profile: '/:nickname',
+    profile: '/profile',
     policy: '/policy',
+    watch: '/watch'
 };
 export default routes;
